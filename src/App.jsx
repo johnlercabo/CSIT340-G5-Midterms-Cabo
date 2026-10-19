@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar.jsx";
 // import Hero from "./components/Hero.jsx";
-// import Footer from "./components/Footer.jsx";
+import Footer from "./components/Footer.jsx";
 import Features from "./components/Features.jsx";
 
 
@@ -115,9 +115,10 @@ function App() {
       </main> */}
       <Features />
 
-      <footer className="mt-auto bg-[#F3E6D5] px-20 py-6 text-center text-xl">
+      {/* <footer className="mt-auto bg-[#F3E6D5] px-20 py-6 text-center text-xl">
         <p>Maroon UI is free and open source.</p>
-      </footer>
+      </footer> */}
+      <Footer />
     </div>
   );
 }
