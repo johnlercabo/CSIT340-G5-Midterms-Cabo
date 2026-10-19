@@ -1,30 +1,32 @@
-import Intro from "./Intro.jsx";
+import { useState } from "react";
+// import Intro from "./Intro.jsx";
 
 function Hero() {
 
-    // const [stars, setStars] = useState(0);
-    // const [downloads, setDownloads] = useState(0);
-    // const [issues, setIssues] = useState(5);
+    const [stars, setStars] = useState(0);
+    const [downloads, setDownloads] = useState(0);
+    const [issues, setIssues] = useState(5);
 
-    // function handleStar() {
-    //     setStars(stars + 1);
-    // }
+    function handleStar() {
+        setStars(stars + 1);
+    }
 
-    // function handleDownload() {
-    //     setDownloads(downloads + 1);
-    // }
+    function handleDownload() {
+        setDownloads(downloads + 1);
+    }
 
-    // function handleReport() {
-    //     setIssues(issues + 1);
-    // }
+    function handleReport() {
+        setIssues(issues + 1);
+    }
 
-    // function handleReset() {
-    //     setStars(0);
-    //     setDownloads(0);
-    //     setIssues(5);
-    // }
+    function handleReset() {
+        setStars(0);
+        setDownloads(0);
+        setIssues(5);
+    }
 
     return(
+        
         
         <div className="flex justify-center gap-4 py-6">
         <button
