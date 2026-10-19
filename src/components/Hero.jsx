@@ -1,4 +1,4 @@
-import Intro from "./Intro";
+import Intro from "./Intro.jsx";
 
 function Hero() {}
 
